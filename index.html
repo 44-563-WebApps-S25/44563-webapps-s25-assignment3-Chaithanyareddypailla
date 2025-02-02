@@ -37,10 +37,7 @@
        </li>
        <li>Mirchi Ka Salan</li>
        <li>Boiled Egg</li>
-     </ul>
-</body>
-</html>
-
+    </ul>
 
 <p>Check out my favorite movie: <a href="myMovie.html">Darling</a></p>
 
@@ -75,15 +72,19 @@
         <td>39</td>
     </tr>
 </table>
-
+```html
 <hr>
 <h2>Python Code Snippet: Reading JSON from File</h2>
 <p>This Python snippet demonstrates how to read data from a JSON file and parse it into a Python dictionary. It uses the <strong>json</strong> module to load and process the data.</p>
+
 <pre>
 import json
     
 def read_json_from_file(filepath):
-    with open(filepath, "r") as f:
-        data = json.load(f)
-    return data
+          with open(filepath, "r") as f:
+    data = json.load(f)
+
 </pre>
+
+</body>
+</html>
